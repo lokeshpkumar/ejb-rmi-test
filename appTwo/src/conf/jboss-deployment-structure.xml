@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <ear-subdeployments-isolated>false</ear-subdeployments-isolated>
+    <deployment>
+        <dependencies>
+            <module name="deployment.appTwo.ear.interfaces-nb.jar" />
+            <module name="deployment.appTwo.ear.model.jar" export="true" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
